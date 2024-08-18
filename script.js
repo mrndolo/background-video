@@ -16,3 +16,7 @@ btn.addEventListener("click", () => {
       fa.classList.add("fa-play");
     }
   });
+
+  window.addEventListener("load", () => {
+    preloader.style.zIndex = "-999";
+  });
